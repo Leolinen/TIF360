@@ -1,0 +1,65 @@
+# Documents / exports
+*.pdf
+*.html
+
+# Data files
+*.pkl
+*.pickle
+*.h5
+*.hdf5
+*.npy
+*.npz
+*ubyte*
+*_dataset/
+data/
+
+# Images
+*.png
+*.jpg
+*.jpeg
+*.gif
+*.bmp
+*.tiff
+*.svg
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+*.egg-info/
+dist/
+build/
+*.egg
+
+# Jupyter
+.ipynb_checkpoints/
+*.nbconvert.ipynb
+
+# Environments
+.env
+.venv
+venv/
+env/
+py_env*/
+.python-version
+
+# Model checkpoints & weights
+*.ckpt
+*.pth
+*.pt
+*.weights
+*.safetensors
+
+# ML / logging
+lightning_logs/
+logs/
+wandb/
+mlruns/
+.glove_cache
+
+# Misc
+*.DS_Store
+.pytest_cache/
+*.log
